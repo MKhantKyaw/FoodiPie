@@ -12,8 +12,21 @@
 */
 
 Route::get('/', function () {
-    return view('page/index');
+    return view('page.index');
 });
 
+Route::get('/dashboard', function () {
+    return view('admin.index');
+});
 
+Route::get('/admin/login', function () {
+    return view('admin.login');
+});
 
+Route::get('/admin/register', function () {
+    return view('admin.register');
+});
+
+Route::get('/admin/forgot-password', function () {
+    return view('admin.forgot-password');
+});
