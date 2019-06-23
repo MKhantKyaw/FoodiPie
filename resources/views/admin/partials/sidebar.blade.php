@@ -2,7 +2,11 @@
   <div id="wrapper">
 
     <!-- Sidebar -->
+<<<<<<< HEAD
     <ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color: #1d2129; border-right: 8px solid #e75b1e;">   <!--bg-gradient-primary-->
+=======
+    <ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color: #1d2129;border-right: 4px solid #e75b1e;">   <!--bg-gradient-primary-->
+>>>>>>> 5ad78f7b77b7e36acb62684f109df19edd8d8d5c
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{url('admin/index') }}">
